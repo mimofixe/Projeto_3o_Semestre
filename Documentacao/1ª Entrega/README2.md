@@ -38,7 +38,7 @@
 
 ## Poster
 
-![Poster do Projeto](documents/poster/poster.jpg)
+
 
 ## Palavras-Chave
 
