@@ -1,6 +1,5 @@
 # Think Toilet & Infra IADE - [IADE](https://www.iade.europeia.pt/) - [UE](https://www.europeia.pt/)
 
-![IADE LOGO PNG](documents/logo/novo_logo.png)
 
 **Universidade:** [Universidade Europeia](https://www.europeia.pt/)
 **Faculdade:** [IADE - Faculdade de Design, Tecnologia e Comunicação](https://www.iade.europeia.pt/)
