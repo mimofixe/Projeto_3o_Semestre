@@ -26,7 +26,10 @@
 - [Bibliografia](#bibliografia)
 
 ## Elementos do Grupo:
-- Vivandro Kambanza - 20241805
+20230331 - David Bação
+202301001 - Francisco Lourinho
+20241805 - Vivandro Kambaza
+20230853 - Yosvany Nunes
 
 ## Palavras-Chave
 Localizador; Avaliação; Sanitários; Casa de banho; Público; Privada; QR Code; Reservas; Salas; Bar; GPS; IADE; Infraestrutura; Mobile; App; Interativo; Experiência do Estudante.
