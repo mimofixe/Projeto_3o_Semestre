@@ -159,8 +159,8 @@ O sistema une **localização de banheiros públicos** com **gestão interna do 
 
 ## Planificação
 
-[Gráfico de Gantt](documents/primeira_entrega/gantt/gantt.pdf)
-[ClickUp](https://app.clickup.com/9012385337/v/s/90121717706)
+[Gráfico de Gantt](https://www.onlinegantt.com/#/gantt)
+[ClickUp][(https://app.clickup.com/9012385337/v/s/90121717706)](https://clickup.com/)
 
 ## Interface
 
