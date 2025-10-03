@@ -1,6 +1,6 @@
 # IADEGO — Aplicação móvel (Poster / 1.ª Entrega)
 
-![Poster do Projeto](Documentacao/1Entrega/posteriadego)
+![Poster do Projeto](Documentacao/1Entrega/posteriadego.jpg)
 
 
 **Universidade:** [Universidade Europeia](https://www.europeia.pt/)  
