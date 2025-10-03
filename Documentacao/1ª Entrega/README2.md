@@ -61,7 +61,7 @@ Dessa forma, o projeto não só resolve problemas comuns em espaços públicos, 
 
 ### Motivação
 
-A ideia surgiu após conversas com professores sobre melhorias na infraestrutura. Muitos sistemas existentes (como reserva de salas, mapas internos ou gestão de recursos) são fragmentados ou inexistentes, causando frustração nos estudantes. Aliando essa necessidade com a inspiração do **Think Toilet** (banheiros públicos), criamos um projeto híbrido: útil no dia a dia e escalável para além da faculdade.
+A ideia surgiu após conversas com professores sobre melhorias na infraestrutura. Muitos sistemas existentes (como reserva de salas, mapas internos ou gestão de recursos) são fragmentados ou inexistentes, causando frustração nos estudantes. Aliando essa necessidade com a inspiração do **Iade GO** (banheiros públicos), criamos um projeto híbrido: útil no dia a dia e escalável para além da faculdade.
 
 ### Objetivos
 
@@ -80,9 +80,9 @@ A ideia surgiu após conversas com professores sobre melhorias na infraestrutura
 
 ## Pesquisa de Mercado
 
-Foram analisadas aplicações existentes para localização de casas de banho, como **Where is the Toilet**, **Berlin Toilet**, **Flush** e **Where is Public Toilet**. Todas apresentam limitações em termos de interface, funcionalidades e atualizações. O **Think Toilet** propõe-se a melhorar esses aspetos.
+Foram analisadas aplicações existentes para localização de casas de banho, como **Where is the Iade go **, **Berlin Toilet**, **Flush** e **Where is Public Toilet**. Todas apresentam limitações em termos de interface, funcionalidades e atualizações. O **Think Toilet** propõe-se a melhorar esses aspetos.
 
-Além disso, dentro do contexto académico, existem falhas em apps de gestão interna de campus, o que cria espaço para o **Infra IADE**.
+Além disso, dentro do contexto académico, existem falhas em apps de gestão interna de campus, o que cria espaço para o **Iade Go**.
 
 ## Guiões de Teste
 
