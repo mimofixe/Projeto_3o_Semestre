@@ -1,6 +1,5 @@
-# Think Toilet & Infra IADE - [IADE](https://www.iade.europeia.pt/) - [UE](https://www.europeia.pt/)
+# Iade Go - [IADE](https://www.iade.europeia.pt/) - [UE](https://www.europeia.pt/)
 
-![IADE LOGO PNG](documents/logo/novo_logo.png)
 
 **Universidade:** [Universidade Europeia](https://www.europeia.pt/)
 **Faculdade:** [IADE - Faculdade de Design, Tecnologia e Comunicação](https://www.iade.europeia.pt/)
@@ -47,10 +46,10 @@ Localizador; Avaliação; Sanitários; Casa de banho; Público; Privada; QR Code
 
 ## Descrição
 
-O **Think Toilet & Infra IADE** é uma aplicação móvel que combina duas vertentes:
+O **Iade GO** é uma aplicação móvel que combina duas vertentes:
 
-1. **Think Toilet (versão pública):** encontrar casas de banho limpas e acessíveis em qualquer local, com avaliações, sugestões e integração com Google Maps.
-2. **Infra IADE (versão campus):** controlar e otimizar a infraestrutura da faculdade IADE, oferecendo:
+1. **Iade Go versão pública):** encontrar casas de banho limpas e acessíveis em qualquer local, com avaliações, sugestões e integração com Google Maps.
+2. **Iade Go (versão campus):** controlar e otimizar a infraestrutura da faculdade IADE, oferecendo:
 
    * Disponibilidade de casas de banho (com acesso via QR code).
    * Visualização e marcação de salas como livres/ocupadas.
