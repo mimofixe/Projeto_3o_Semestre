@@ -1,6 +1,7 @@
 # IADEGO — Aplicação móvel (Poster / 1.ª Entrega)
 
-![Poster do Projeto](Imagem%20WhatsApp%202025-09-30%20às%2020.04.02_d3cab98c.jpg)
+![Poster do Projeto](Documentacao/1Entrega/posteriadego)
+
 
 **Universidade:** [Universidade Europeia](https://www.europeia.pt/)  
 **Faculdade:** IADE — Faculdade de Design, Tecnologia e Comunicação  
