@@ -264,8 +264,6 @@ RNF7. Interface responsiva e acessível (contraste, tamanhos).
 - **GET /rooms** — listar salas / coordenadas internas.  
 - **POST /notifications** — enviar notificações push (simulado).
 
-(Descrever cada endpoint com parâmetros, respostas e códigos HTTP na documentação final.)
-
 ---
 
 ## Conclusão / Benefícios (conforme poster)
