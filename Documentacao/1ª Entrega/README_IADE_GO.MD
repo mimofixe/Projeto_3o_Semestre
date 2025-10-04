@@ -219,9 +219,6 @@ RNF7. Interface responsiva e acessível (contraste, tamanhos).
 - WBS-5: BD (MySQL) e integração — 6 dias (Yosvany)  
 - WBS-6: Testes e validação — 6 dias (Team)  
 - WBS-7: Preparação Poster & Vídeo — 4 dias (Team)  
-
-> **Gantt:** inserir/expor gráfico em `documents/primeira_entrega/gantt/gantt.pdf`. Incluir marcos: 1.ª entrega (versão do relatório e poster), entregas intermédias conforme brief.
-
 ---
 
 ## Requisitos Técnicos / Ferramentas Obrigatórias
