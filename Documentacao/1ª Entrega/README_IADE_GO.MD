@@ -138,6 +138,7 @@ RNF7. Interface responsiva e acessível (contraste, tamanhos).
 - **Notification**: id, user_id, type, message, created_at, read_flag.
 
 (Relacionamentos: User 1..* Orders; Order 1..* OrderItems; Order 1..1 QRCode; Room usada para GPS/rotas.)
+https://mermaid.live/edit#pako:eNp9U01v2zAM_SsGr0sDJ06dxIdduksPS7sOuwwGDM5SXAK25OpjaBfkv4-x46_OnS_me5IeqUfxBLkWEhLIS7T2C2FhsEpVwF_DBD-sNMGpZYLgE4nMM9NjpSvZA1khlT3KvbG6RxZLcUXnsf6DEe8T6AvVEwIdZrkhzHGk5tB520OnHZYz4o9GC5-7qXzdkvNXqI3MhzSCbK0V_aKSBAr5Ufn3TlYzV8iI-Z598ajcSKZLlnlFDg3NmfPt6Y67M5V-Gazh1lExVCtfazKYdTknSgft6Eg5OtJqqqdGKz1fSWWxGFXvqNbTlkj1e7bmJ63fmWGY-cBtsoNEGzTvLYVVCsHNzWeODhw9DC-ifS-zG-57u4eutMvtxsuRx3Hz_9W6RK3p_6nmMHEMFlAYEpA44-UCKml4ChhC40EK7lnyjSHhUMgj-tKlkKozH6tR_WRrupNG--IZkiOWlpGv2WV5HchuC3qnv7-pvMNSkNPm63WCL79GFZITvEIShfEyDuNoHW3j22gXrjcLeGM6Xq7Wm_1uFe3DcBPH-_MC_jR1hMvd9pYLkYp9udNeOUhW2_NfHiE8iw
 
 ---
 
@@ -242,7 +243,6 @@ RNF7. Interface responsiva e acessível (contraste, tamanhos).
   - **Data submissão (exemplo no brief):** domingo, 05/10/2025 às 23:59.  
   - Conteúdos obrigatórios para a 1.ª Entrega: proposta, nome do projeto, enquadramento, pesquisa/contexto, objetivos, público-alvo, pesquisa sobre outras apps, pelo menos 3 guiões de teste, 1 caso de utilização "core" + 2 casos adicionais, plano de trabalhos, Project Charter & WBS, requisitos func./não-func., modelo do domínio, mockups/interfaces, Gantt.  
 - **Poster:** entrega junto da 1.ª Entrega.  
-- **Vídeo promocional:** 1 minuto, a entregar em entregas posteriores conforme briefing.
 
 ---
 
