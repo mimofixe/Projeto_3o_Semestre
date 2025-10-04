@@ -1,269 +1,231 @@
-# IADEGO — Aplicação móvel (Poster / 1.ª Entrega)
-
-![Poster do Projeto](Documentacao/1Entrega/posteriadego.jpg)
+# IADE GO - [IADE](https://www.iade.europeia.pt/) - [UE](https://www.europeia.pt/)
 
 
-**Universidade:** [Universidade Europeia](https://www.europeia.pt/)  
-**Faculdade:** IADE — Faculdade de Design, Tecnologia e Comunicação  
-**Curso:** Engenharia Informática  
-**Semester:** 2025-2026 / 3.º Semestre
-
----
+**Universidade:** [Universidade Europeia](https://www.europeia.pt/)
+**Faculdade:** [IADE - Faculdade de Design, Tecnologia e Comunicação](https://www.iade.europeia.pt/)
+**Repositório:** [IADE GO](https://github.com/mimofixe/Projeto_3o_Semestre)
+**Curso:** Engenharia Informática
 
 ## Índice
 
-1. [Elementos do Grupo](#elementos-do-grupo)  
-2. [Resumo / Poster](#resumo--poster)  
-3. [Palavras-chave](#palavras-chave)  
-4. [Descrição do Projeto](#descrição-do-projeto)  
-5. [Enquadramento com o Briefing / Objetivos](#enquadramento-com-o-briefing--objetivos)  
-6. [Público-alvo](#público-alvo)  
-7. [Funcionalidades (conforme poster)](#funcionalidades-conforme-poster)  
-8. [Requisitos Funcionais e Não Funcionais](#requisitos-funcionais-e-não-funcionais)  
-9. [Modelo do Domínio (ER) — visão textual](#modelo-do-domínio-er---visão-textual)  
-10. [Guiões de Teste (mín. 3)](#guiões-de-teste-mín-3)  
-11. [Casos de Utilização (1 core + 2 adicionais)](#casos-de-utilização-1-core--2-adicionais)  
-12. [Plano de Trabalho / WBS / Gantt (resumo)](#plano-de-trabalho--wbs--gantt-resumo)  
-13. [Requisitos Técnicos e Ferramentas Obrigatórias](#requisitos-técnicos-e-ferramentas-obrigatórias)  
-14. [Entregas e Datas (conforme briefing)](#entregas-e-datas-conforme-briefing)  
-15. [Mockups / Interfaces / Figma (referência)](#mockups--interfaces--figma-referência)  
-16. [Conclusão / Benefícios](#conclusão--benefícios)
+* [Elementos do Grupo](#elementos-do-grupo)
+* [Poster](#poster)
+* [Palavras-Chave](#palavras-chave)
+* [Descrição](#descrição)
 
----
+  * [Motivação](#motivação)
+  * [Objetivos](#objetivos)
+* [Público-Alvo](#público-alvo)
+* [Pesquisa de Mercado](#pesquisa-de-mercado)
+* [Guiões de Teste](#guiões-de-teste)
+* [Plano de Trabalho](#plano-de-trabalho)
+* [Descrição da Solução e Enquadramento das Unidades Curriculares](#descrição-da-solução-e-enquadramento-das-unidades-curriculares)
+* [Requisitos Técnicos](#requisitos-técnicos)
+* [Modelo do Domínio](#Modelo-do-Domínio)
+* [Arquitetura da Solução](#arquitetura-da-solução)
+* [Tecnologias](#tecnologias)
+* [Planificação](#planificação)
+* [Interface](#interface)
+* [Conclusão](#conclusão)
+* [Bibliografia](#bibliografia)
 
-## Elementos do Grupo
+## Elementos do Grupo:
 
-- 20230331 — David Bação  
-- 202301001 — Francisco Lourinho  
-- 20241805 — Vivandro Kambaza  
-- 20230853 — Yosvany Nunes
+* 20230331 - David Bação
+* 202301001 - Francisco Lourinho
+* 20241805 - Vivandro Kambaza
+* 20230853 - Yosvany Nunes
 
----
+## Poster
 
-## Resumo / Poster
+![Poster do Projeto](Documentacao/1Entrega/posteriadego.jpg)
 
-O **IADEGO** é uma aplicação móvel para estudantes do IADE que permite **escolher e reservar lanches**, **levantar com QR Code**, e **usar GPS interno** para encontrar salas e locais no campus. Objetivo: eliminar filas, reduzir stress e otimizar o tempo dos alunos.
+## Palavras-Chave
 
-Slogan (do poster):  
-**encontra o teu lanche e a tua sala. Sem filas. Sem stress.**
+Bar; Comida; IADE; Universidade; QR Code; Reservas; Salas; GPS; Infraestrutura; Mobile; App; Interativo; Experiência do Estudante; Refeitório; Localizador.
 
----
+## Descrição
 
-## Palavras-chave
-
-Reserva; QR Code; Lanches; GPS interno; Campus; IADE; Mobile; App; Interativo; Experiência do Estudante.
-
----
-
-## Descrição do Projeto
 
 IADEGO é uma app mobile voltada para o ambiente académico IADE com foco principal em:
 
 - Reservas de lanches em tempo real (evitar filas).  
 - Geração de QR Code para levantar o pedido no bar (QR válido por 10 minutos).  
-- GPS interno para localizar salas e pontos de interesse do campus.  
-- Notificações de lembrete (pedidos prontos / tempo para próxima aula).  
+- GPS interno para localizar salas e pontos de interesse do campus.
+   * Visualização e marcação de salas como livres/ocupadas.
+   * Reservar salas de aulas para estudo.
 
-A experiência no poster (escolhe → reserva → levanta com QR) é o fluxo central do produto.
+### Motivação
 
----
+Sabemos que o tempo e algo que não podemos alterar, baseado nessa ideia tentamos criar alguma forma de otimizar algo de forma a que os utilizadores possam ter uma experiencia melhor com a nossa app. Com este pensamento e apos termos tido várias conversas com professores sobre melhorias na infraestrutura, pensamos numa app para o IADE - Universidade Europeia. Nessa app poderíamos ter varias vertentes como reserva de salas, mapas internos ou tempos de espera em filas, que podem dispender de vários minutos da nossa vida, causando frustração nos estudantes. Essa ideia foi entretanto explorada e falada com mais pormenor chegando a ideia original atual.
 
-## Enquadramento com o Briefing / Objetivos
+### Objetivos
 
-**Contexto (L-EI — 3.º semestre):** projeto multidisciplinar que integra conhecimentos de Programação Mobile, POO, Bases de Dados, Matemática Discreta e Competências de Comunicação. Deve respeitar os requisitos da unidade (uso de base de dados relacional, REST APIs, Android/Kotlin, Spring Boot, uso de Figma, GitHub, ClickUp, etc.).
+* Melhorar a experiência do estudante no campus IADE.
+	* Localização - Guiar o aluno para o lugar da universidade que desejar
+	* Comida - Disponibilizar reservas rápidas de comida e salas.
+	* Tempo
+* Integrar controle ambiental (luz/ar condicionado) de forma simples.
+* Incentivar feedback dos utilizadores para manter dados sempre atualizados.
 
-**Objetivos do projeto (concretos):**
+## Público-Alvo
 
-- Implementar a app IADEGO em Android (Kotlin + Jetpack Compose).  
-- Criar um backend REST em Spring Boot com BD relacional (MySQL/PostgreSQL).  
-- Permitir reservar lanches, gerar QR temporário, gerir filas e localizações.  
-- Fornecer GPS interno para encontrar salas.  
-- Garantir dados fictícios (não usar dados reais).  
-- Produzir documentação: diagrama de classes, modelo ER, documentação REST, mockups, Gantt.
+* Estudantes e professores do **IADE** (uso interno da infraestrutura).
 
----
+## Pesquisa de Mercado
 
-## Público-alvo
 
-- Estudantes do IADE (primário).  
-- Funcionários do campus (bar, atendimento).  
-- Visitantes ocasionais (secundário).
+Não encontramos nenhuma aplicação que reúna todas as funcionalidades do **IADE GO**, embora existam soluções que oferecem partes isoladas dessas funcionalidades.
 
----
+-   **Uber Eats, Bolt Food, Glovo:** Estas aplicações focam-se na entrega de comida, permitindo ao utilizador fazer o pedido diretamente na app e escolher entre levantar o pedido na loja ou recebê-lo em casa.
+    
+-   **Tablets Kiosk digitais dos centros comerciais:** Apesar de não estarem disponíveis ao público em geral, estes dispositivos utilizam uma tecnologia que orienta os utilizadores de loja em loja dentro de um centro comercial.
 
-## Funcionalidades (conforme poster)
+## Guiões de Teste
 
-- Escolher produto (menu de bar: sanduíche, bolo, café, etc.).  
-- Reserva de lanche em tempo real (botão **Reserve**).  
-- Geração de QR Code para levantamento (válido 10 minutos).  
-- GPS para encontrar salas e locais no campus.  
-- Notificações de lembrete (pedido pronto / aviso de sala).  
-- Visualização de saldo/preço (ex.: Muffin €1,00).  
-- Interface simples tipo poster (fluxo rápido).
+1. **Reservar comida no bar.**
+	* Abrir app **IADE GO**
+	* Fazer **login** com a sua conta estudante
+	* Clicar em **Cantina/Bar**
+	* Escolher o que deseja.
+	* Clicar no icone do **Carrinho de compras**
+	* **Concluir** a sua compra.
+	* Escolher o **método de pagamento**.
+	* **Recolher** o lanche em 10 minutos. (depois de concluído)
+2. **Seguir rota GPS até à sala da próxima aula.**
+	* Abrir app **IADE GO**
+	* Fazer **login** com a sua conta estudante
+	* Clicar em **Mapa IADE**
+	* **Escolher** o lugar onde deseja ir.
+	* Escolher opção **Começar**.
+3. **Reservar sala vazia.**
+	* Abrir app **IADE GO**
+	* Fazer **login** com a sua conta estudante
+	* Clicar em **Mapa IADE**
+	* **Escolher** a sala onde deseja ir.
+	* **Escolher** reservar sala.
 
----
-
-## Requisitos Funcionais e Não Funcionais
-
-### Requisitos Funcionais (RF)
-RF1. O sistema deve permitir que um estudante faça login (ou use modo convidado).  
-RF2. O utilizador pode navegar no menu de lanches e selecionar produtos.  
-RF3. O utilizador pode reservar um lanche e confirmar pagamento (simulado / offline).  
-RF4. Após reserva, o sistema gera um QR Code associado ao pedido (validade 10 min).  
-RF5. O bar valida o QR para entrega do pedido.  
-RF6. O sistema disponibiliza GPS interno para localizar salas e marcar rota.  
-RF7. O sistema envia notificações (pedido pronto / reminder aula).
-
-### Requisitos Não Funcionais (RNF)
-RNF1. Aplicação Android compatível com Android 9+.  
-RNF2. Comunicação backend via REST (Spring Boot).  
-RNF3. Base de dados relacional (MySQL ou PostgreSQL).  
-RNF4. API e dados com autenticação e tratamento básico de privacidade (RGPD — dados fictícios).  
-RNF5. Performance: geração de QR e resposta de reserva em < 3s em condições normais de rede campus.  
-RNF6. QR Code válido por 10 minutos (expiração automática).  
-RNF7. Interface responsiva e acessível (contraste, tamanhos).
-
----
-
-## Modelo do Domínio (ER) — visão textual
-
-**Entidades principais:**
-
-- **User (Aluno)**: id, nome, email (fictício), curso, turma.  
-- **Product (Produto do Bar)**: id, nome, descrição, preço, disponibilidade.  
-- **Order (Pedido)**: id, user_id, estado (reservado / pronto / levantado), total, created_at.  
-- **OrderItem**: id, order_id, product_id, quantity, price.  
-- **QRCode**: id, order_id, code_value, issued_at, expires_at, used_flag.  
-- **Room (Sala/Local)**: id, nome, piso, coords_internas.  
-- **Notification**: id, user_id, type, message, created_at, read_flag.
-
-(Relacionamentos: User 1..* Orders; Order 1..* OrderItems; Order 1..1 QRCode; Room usada para GPS/rotas.)
-https://mermaid.live/edit#pako:eNp9U01v2zAM_SsGr0sDJ06dxIdduksPS7sOuwwGDM5SXAK25OpjaBfkv4-x46_OnS_me5IeqUfxBLkWEhLIS7T2C2FhsEpVwF_DBD-sNMGpZYLgE4nMM9NjpSvZA1khlT3KvbG6RxZLcUXnsf6DEe8T6AvVEwIdZrkhzHGk5tB520OnHZYz4o9GC5-7qXzdkvNXqI3MhzSCbK0V_aKSBAr5Ufn3TlYzV8iI-Z598ajcSKZLlnlFDg3NmfPt6Y67M5V-Gazh1lExVCtfazKYdTknSgft6Eg5OtJqqqdGKz1fSWWxGFXvqNbTlkj1e7bmJ63fmWGY-cBtsoNEGzTvLYVVCsHNzWeODhw9DC-ifS-zG-57u4eutMvtxsuRx3Hz_9W6RK3p_6nmMHEMFlAYEpA44-UCKml4ChhC40EK7lnyjSHhUMgj-tKlkKozH6tR_WRrupNG--IZkiOWlpGv2WV5HchuC3qnv7-pvMNSkNPm63WCL79GFZITvEIShfEyDuNoHW3j22gXrjcLeGM6Xq7Wm_1uFe3DcBPH-_MC_jR1hMvd9pYLkYp9udNeOUhW2_NfHiE8iw
-
----
-
-## Guiões de Teste (mín. 3)
-
-### Guião 1 — Reservar um lanche e levantar com QR
-1. Abrir app IADEGO.  
-2. Entrar em “Menu” → escolher “Chicken Sandwich”.  
-3. Clicar em **Reserve**.  
-4. Confirmar reserva. O backend cria pedido e responde com QR Code.  
-5. Verificar notificação “Pedido pronto” (simulado).  
-6. Ir ao bar e mostrar QR. Operador valida QR (mobile/scanner).  
-7. Pedido marcado como “levantado” no sistema.  
-**Critério de sucesso:** QR validado e pedido marcado como levantado; QR invalida após uso.
-
-### Guião 2 — QR expira após 10 minutos
-1. Reservar um lanche (como Guião 1).  
-2. Aguardar 11 minutos (simulação / avanço de tempo nos testes).  
-3. Tentar validar QR no bar.  
-**Critério de sucesso:** QR rejeitado por expirado; pedido mantém estado “reservado” e notifica utilizador para nova reserva.
-
-### Guião 3 — Encontrar sala com GPS interno
-1. Abrir app IADEGO.  
-2. Ir à opção “Localizar Sala”.  
-3. Inserir sala destino (ex.: “SALA B203”).  
-4. Seguir instruções/rota interna até destino.  
-**Critério de sucesso:** App orienta o utilizador até coordenadas internas correspondentes à sala.
-
----
-
-## Casos de Utilização
-
-### Caso de Utilização Core — “Reservar e Levantar Lanche”  
-**Ator primário:** Estudante  
-**Pré-condição:** Utilizador na app, produtos disponíveis.  
-**Fluxo principal:**  
-1. Selecionar produto.  
-2. Confirmar reserva.  
-3. Backend cria pedido e gera QR (expires_at = now + 10min).  
-4. Notificação de confirmação é enviada.  
-5. Utilizador apresenta QR no bar; operador valida; pedido entregue.  
-**Fluxo alternativo:** Pagamento falha → cancelar pedido / notificar.  
-**Pós-condição:** Pedido entregue / QR marcado como usado.
-
-### Caso de Utilização 2 — “Localizar Sala (GPS interno)”  
-**Ator:** Estudante  
-**Resumo:** GPS interno guia o aluno até a sala indicada.
-
-### Caso de Utilização 3 — “Notificações de Lembrete”  
-**Ator:** Estudante  
-**Resumo:** App envia lembretes de pedidos prontos e avisos de tempo para próxima aula.
-
----
-
-## Plano de Trabalho, Project Charter & WBS (resumo)
+## Plano de Trabalho
 
 **Fases principais (milestones):**
 
-1. **Planeamento e Proposta** (semana 1–2)  
-   - Definição do escopo, pesquisa, mockups iniciais (Figma), diagrama de domínio.  
-2. **Protótipo (MVP)** (semanas 3–6)  
-   - App Android: UI de menu, reserva, QR display.  
-   - Backend básico: endpoints reserva, geração QR.  
-   - BD com dados fictícios.  
-3. **Desenvolvimento / Integração** (semanas 7–10)  
-   - GPS interno, notificações, fluxo bar (validação QR).  
-   - Documentação REST, diagrama de classes.  
-4. **Testes e Ajustes** (semanas 11–12)  
-   - Testes unitários, integração, correções.  
-5. **Entrega Final** (semana 13)  
-   - Relatório, poster, vídeo promo, apresentação.
+1.  **Planeamento e Proposta**  (semana 1–2)
+    -   Definição do escopo, pesquisa, mockups iniciais (Figma), diagrama de domínio.
+2.  **Protótipo (MVP)**  (semanas 3–6)
+    -   App Android: UI de menu, reserva, QR display.
+    -   Backend básico: endpoints reserva, geração QR.
+    -   BD com dados fictícios.
+3.  **Desenvolvimento / Integração**  (semanas 7–10)
+    -   GPS interno, notificações, fluxo bar (validação QR).
+    -   Documentação REST, diagrama de classes.
+4.  **Testes e Ajustes**  (semanas 11–12)
+    -   Testes unitários, integração, correções.
+5.  **Entrega Final**  (semana 13)
+    -   Relatório, poster, vídeo promo, apresentação.
 
-**WBS (tarefa → responsável → duração estimada):**
+Planeamos o projeto usando a ferramenta abaixo. Esta ferramenta foi usada para a gestão de de todas as tarefas e subtarefas onde usamos listas e gráficos de gantt, para nos organizarmos.
 
-- WBS-1: Documentação inicial e proposta — 5 dias (Team)  
-- WBS-2: Design UI / Figma — 6 dias (David/Francisco)  
-- WBS-3: Backend REST (Spring Boot) — 10 dias (Yosvany)  
-- WBS-4: Mobile App (Kotlin / Compose) — 12 dias (Vivandro/Francisco)  
-- WBS-5: BD (MySQL) e integração — 6 dias (Yosvany)  
-- WBS-6: Testes e validação — 6 dias (Team)  
-- WBS-7: Preparação Poster & Vídeo — 4 dias (Team)  
----
+https://sharing.clickup.com/90151674235/l/h/6-901515651075-1/eb8431e1a265761
 
-## Requisitos Técnicos / Ferramentas Obrigatórias
+## Descrição da Solução e Enquadramento das Unidades Curriculares 
 
-- **Front-end Mobile:** Kotlin + Jetpack Compose (Android Studio).  
-- **Back-end:** Java + Spring Boot (REST).  
-- **BD:** MySQL ou PostgreSQL (relacional).  
-- **Versionamento:** GitHub (repositório público/privado conforme regras).  
-- **Gestão de projeto:** ClickUp.  
-- **Comunicação:** Discord.  
-- **Mockups:** Figma (obrigatório).  
-- **Dados de teste:** fictícios (não usar dados reais).  
-- **Documentação adicional:** diagrama de classes, modelo ER, doc REST.
+* **Programação de Dispositivos Móveis:** Android em Kotlin. * App em Kotlin.
+* **POO:** Java. * Backend em Java.
+* **Bases de Dados:** MySQL. * Base de dados MySQL.
+* **Matemática Discreta:** lógica de rotas, reservas e algoritmos internos.
+* **Projeto de Desenvolvimento Móvel:** planeamento e gestão.
+* **Competências Comunicacionais:** Posters e Apresentações.
 
----
+## Requisitos Técnicos
 
-## Entregas e Datas (conforme Briefing / 1.ª Entrega)
+### **Funcionais**
 
-- **Constituição dos Grupos:** 1.ª aula (limite 1.ª semana).  
-- **1.ª Entrega (4.ª semana / submissão final na 5.ª semana):**  
-  - **Data submissão (exemplo no brief):** domingo, 05/10/2025 às 23:59.  
-  - Conteúdos obrigatórios para a 1.ª Entrega: proposta, nome do projeto, enquadramento, pesquisa/contexto, objetivos, público-alvo, pesquisa sobre outras apps, pelo menos 3 guiões de teste, 1 caso de utilização "core" + 2 casos adicionais, plano de trabalhos, Project Charter & WBS, requisitos func./não-func., modelo do domínio, mockups/interfaces, Gantt.  
-- **Poster:** entrega junto da 1.ª Entrega.  
+1.  **Gestão de salas**  
+    -   Ver disponibilidade das salas de aula em tempo real, com base nos horários.
+    -   Possibilidade de marcar salas como “livres” (zonas verdes).
+    -   Orientação por GPS/Indoor Maps até a sala da próxima aula.
+2.  **Controle de infraestrutura (IoT)**
+      -   Conectar via **Bluetooth** ou rede local para ligar/desligar luzes e ar condicionado.      
+4.  **Gestão de refeições (bar/cantina)**
+    -   Reservar comida através da aplicação.
+    -   Possibilidade de pagamento in-app (cartão/MBWay) ou em pessoa.
+    -   Confirmação da reserva e retirada no bar.
+5.  **Autenticação e segurança**
+    -   Login com credenciais institucionais (ex.: email IADE).
+    -   Possibilidade de integrar cartão de estudante digital (QR ou NFC).
 
----
+### **Não Funcionais**
+1.  **Usabilidade**
+    -   Interface simples e intuitiva para estudantes.
+    -   Compatível com Android (idealmente também iOS no futuro).
+2.  **Performance**
+    -   Resposta em tempo real para reservas e disponibilidade.
+    -   Baixo consumo de bateria, especialmente no uso de GPS/Bluetooth.
+3.  **Confiabilidade**
+    -   O sistema deve funcionar mesmo com falhas temporárias de internet (ex.: cache local).
+    -   Garantir consistência nas reservas (evitar duplicações).
+4.  **Segurança**
+    -   Dados dos estudantes protegidos (GDPR).
+    -   Pagamentos seguros e encriptados.
+5.  **Escalabilidade**
+    -   Possibilidade de expansão para outros campi ou universidades.
+    -   Estrutura modular (ex.: fácil adicionar novas funções, como biblioteca ou estacionamento).
+6.  **Integração**
+    -   Compatível com os sistemas já existentes do IADE (ex.: horários, autenticação).        
+    -   Uso de APIs e padrões abertos (REST, OAuth, etc.).
 
-## Mockups / Interfaces / Figma
+## Modelo do Domínio
 
-- Mockups iniciais (inspirados no poster) devem ser feitos em Figma e link adicionada aqui.  
-- Interfaces essenciais: ecrã de menu/seleção, ecrã de reserva/confirm, ecrã com QR Code, ecrã de GPS/rotas, ecrã de notificações.
+**Entidades principais:**
 
----
+-   **User (Aluno)**: id, nome, email , curso, turma.
+-   **Product (Produto do Bar)**: id, nome, descrição, preço, disponibilidade.
+-   **Order (Pedido)**: id, user_id, estado (reservado / pronto / levantado), total, created_at.
+-   **OrderItem**: id, order_id, product_id, quantity, price.
+-   **QRCode**: id, order_id, code_value, issued_at, expires_at, used_flag.
+-   **Room (Sala/Local)**: id, nome, piso.
+-   **Notification**: id, user_id, type, message, 'created_at, read_flag.
 
-## Documentação REST (resumo mínimo a incluir)
+(Relacionamentos: User 1…* Orders; Order 1…* OrderItems; Order 1…1 QRCode; Room usada para GPS/rotas.)
 
-- **POST /orders** — criar reserva (body: user_id, items).  
-- **GET /orders/{id}/qrcode** — obter QR (imagem / token).  
-- **POST /qrcode/validate** — validar QR (operador do bar).  
-- **GET /rooms** — listar salas / coordenadas internas.  
-- **POST /notifications** — enviar notificações push (simulado).
+## Arquitetura da Solução
 
----
+* **Front-end:** App Android em Kotlin/Compose.
+* **Back-end:** Spring Boot (REST APIs).
+* **DB:** MySQL.
+* **Integrações:** QR Code, GPS interno, Bluetooth.
 
-## Conclusão / Benefícios (conforme poster)
+## Tecnologias
 
-**Para estudantes:** mais tempo, menos stress — evitar filas e não perder aulas ou lanche.  
-**Para o campus:** melhor gestão do fluxo de pessoas, menos filas, maior organização do bar e das salas.
+* Kotlin + Jetpack Compose.
+* Java + Spring Boot.
+* MySQL.
+* Figma.
+
+## Planificação
+
+[ClickUp][[(https://sharing.clickup.com/90151674235/gr/h/2kyqarbv-175/98c212984e03221>)](https://clickup.com/)](https://app.clickup.com/t/86c5nymvw)
+
+## Interface
+
+Inclui telas de:
+
+* Menu;
+* Mapa IADE;
+* Menu Cafetaria;
+* Menu de informação;
+* Perfil
+
+## Conclusão
+
+O projeto **IADE GO** visa otimizar tempo dos estudantes, beneficiando aqueles que usam a app, evitando filas, menos stress, reserva de lanches e salas. Esta app embora seja projetada mais para estudantes, pode ser usada pelos professores e para visitas inesperadas ao IADE.
+
+## Bibliografia
+
+* [Portal-IADE](https://portalestudante.iade.pt/login-ws?mId=loginIADE&eId=show)
+* [IADE](https://www.iade.europeia.pt/)
+* [Kotlin](https://kotlinlang.org)
+* [Jetpack Compose](https://developer.android.com/compose)
+* [Spring Boot](https://spring.io)
+* [MySQL](https://www.mysql.com/)
+* [Figma](https://www.figma.com/)
