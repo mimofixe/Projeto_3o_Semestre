@@ -38,7 +38,7 @@
 
 ## Poster
 
-![Poster do Projeto](posteriadego.jpg)
+![Poster do Projeto](posteriadego.png)
 
 ## Palavras-Chave
 
