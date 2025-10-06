@@ -186,6 +186,8 @@ https://sharing.clickup.com/90151674235/l/h/6-901515651075-1/eb8431e1a265761
 -   **Room (Sala/Local)**: id, nome, piso.
 -   **Notification**: id, user_id, type, message, 'created_at, read_flag.
 
+https://www.mermaidchart.com/app/projects/84a4df9f-e6cb-4f4d-9cab-ffe4dcb198b8/diagrams/4580185e-12cd-4a53-8582-9961d5f03910/share/invite/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb2N1bWVudElEIjoiNDU4MDE4NWUtMTJjZC00YTUzLTg1ODItOTk2MWQ1ZjAzOTEwIiwiYWNjZXNzIjoiRWRpdCIsImlhdCI6MTc1OTc2MTI0OH0.SUqbIxzsOQNzHoov6pgc5WMTB7BXBop7hc-fEQmraV8
+
 (Relacionamentos: User 1…* Orders; Order 1…* OrderItems; Order 1…1 QRCode; Room usada para GPS/rotas.)
 
 ## Arquitetura da Solução
