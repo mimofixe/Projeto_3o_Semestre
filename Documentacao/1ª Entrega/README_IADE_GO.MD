@@ -187,7 +187,7 @@ https://sharing.clickup.com/90151674235/l/h/6-901515651075-1/eb8431e1a265761
 -   **Notification**: id, user_id, type, message, 'created_at, read_flag.
 
 
-![Modelo de Domínio](image.png)
+![Modelo de Domínio](modelodedominio.png)
 
 (Relacionamentos: User 1…* Orders; Order 1…* OrderItems; Order 1…1 QRCode; Room usada para GPS/rotas.)
 
